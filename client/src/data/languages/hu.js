@@ -343,7 +343,7 @@ export default {
     'MY_ACCOUNT_DESCRIPTION': 'Itt szerkesztheti adatait.',
     'DEPARTMENTS_DESCRIPTION': 'Egy osztály egy csoport, ahova a jegyek beérkezhetnek. A jegyek kategorizálására használják. Hozzárendelheti őket más személyzet tagjaihoz is.',
     'MAINTENANCE_MODE_DESCRIPTION': 'A támogatási rendszer karbantartási üzemmódban van, ezért jelenleg nem elérhető. Amint lehetséges, visszatérünk.',
-    'EMAIL_TEMPLATES_DESCRIPTION': 'Itt szerkesztheti a felhasználóknak küldött e-mailek sablonjait. Ne feledje, hogy a dupla kapcsos zárójelek ({{}}) változó értéket jelölnek. Például a \'name\' a felhasználó nevét jelenti.',
+    'EMAIL_TEMPLATES_DESCRIPTION': 'Itt szerkesztheti a felhasználóknak küldött e-mailek sablonjait. Ne feledje, hogy a dupla kapcsos zárójelek változó értéket jelölnek. Például a \'name\' a felhasználó nevét jelenti.',
     'SYSTEM_PREFERENCES_DESCRIPTION': 'Itt szerkesztheti a rendszer beállításait.',
     'VERIFY_SUCCESS_DESCRIPTION': 'A felhasználó sikeresen ellenőrizve lett. Most már bejelentkezhet.',
     'VERIFY_FAILED_DESCRIPTION': 'Az ellenőrzés nem sikerült.',
