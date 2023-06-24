@@ -992,6 +992,66 @@ class MailTexts {
               'Możesz uzyskać dostęp do zgłoszenia po jego numerze.',
           ],
         ],
+        'hu' => [
+          'USER_SIGNUP' => [
+              'Regisztráció {{to}} - OpenSupports',
+              'Fiók ellenőrzése',
+              'Üdvözölünk a támogatási központunkban, {{name}}!. Az e-mail címének ellenőrzésére van szükség ahhoz, hogy hozzáférhessen a fiókjához.',
+              'Használja ezt a kódot a(z) {{url}}/verify-token/{{to}}/{{verificationToken}} oldalon, vagy kattintson az alábbi gombra.',
+          ],
+          'USER_PASSWORD' => [
+              'Jelszó módosítva - OpenSupports',
+              'Jelszó megváltozott',
+              'Tisztelt {{name}}! Szeretnénk tájékoztatni, hogy a jelszavad megváltozott a vásárlói felületeden.',
+          ],
+          'USER_EMAIL' => [
+              'E-mail módosítva - OpenSupports',
+              'E-mail megváltozott',
+              'Tisztelt {{name}}! Szeretnénk tájékoztatni, hogy az e-mail címed megváltozott {{newemail}}-ra a vásárlói felületeden.',
+          ],
+          'PASSWORD_FORGOT' => [
+              'Jelszó visszaállítása - OpenSupports',
+              'Jelszó visszaállítása',
+              'Tisztelt {{name}}! Jelszó-visszaállítást kértél.',
+              'Használja ezt a kódot a(z) {{url}}/recover-password?email={{to}}&token={{token}} oldalon, vagy kattintson az alábbi gombra.',
+          ],
+          'USER_SYSTEM_DISABLED' => [
+              'Hozzáférési rendszer megváltozott - OpenSupports',
+              'Hozzáférési rendszer megváltozott',
+              'Tisztelt {{name}}! Megváltozott a jegyekhez való hozzáférés rendszere.',
+              'A jegyeidhez az e-mail címed és a jegy számát használva férhetsz hozzá és nézheted meg. Kattints az alábbi gombra a jegyeid megtekintéséhez.',
+          ],
+          'USER_SYSTEM_ENABLED' => [
+              'Fiók létrehozva - OpenSupports',
+              'Fiók létrehozva',
+              'Tisztelt {{name}}! Létrehoztunk egy fiókot, ahol hozzáférhetsz az általad elküldött jegyekhez.',
+              'A fiókodhoz az alábbi e-mail címet <i>({{to}})</i> és jelszót használhatod. Kérlek változtasd meg a jelszót, amint bejelentkeztél.',
+          ],
+          'TICKET_CREATED' => [
+              '#{{ticketNumber}} Jegy létrehozva - OpenSupports',
+              'Jegy létrehozva',
+              'Tisztelt {{name}}! Elküldtél egy új jegyet a támogatási központunkba, melynek címe <i>{{title}}</i>.',
+              'A jegyhez a jegy számát használva férhetsz hozzá, vagy kattinthatsz az alábbi gombra.',
+          ],
+          'TICKET_RESPONDED' => [
+              '#{{ticketNumber}} Új válasz - OpenSupports',
+              'Jegyre válasz érkezett',
+              'Tisztelt {{name}}! Választ kaptál a(z) <i>{{title}}</i> című jegyben.',
+              'Kérlek kattints az alábbi gombra az új válasz megtekintéséhez.'
+          ],
+          'TICKET_CLOSED' => [
+              '#{{ticketNumber}} Jegy lezárva - OpenSupports',
+              'Jegy lezárva',
+              'Tisztelt {{name}}! Lezártunk egy jegyet, amit elküldtél a(z) <i>{{title}}</i> című jeggyel.',
+              'A jegyhez a jegy számát használva férhetsz hozzá. Vagy kattinthatsz az alábbi gombra.'
+          ],
+          'TICKET_CREATED_STAFF' => [
+              '#{{ticketNumber}} Jegy létrehozva - OpenSupports',
+              'Jegy létrehozva',
+              '{{name}} felhasználó létrehozott egy új jegyet a következő címmel: <i>{{title}}</i>.',
+              'A jegyhez a jegy számát használva férhetsz hozzá.',
+          ],
+        ],
     ];
   }
 }
