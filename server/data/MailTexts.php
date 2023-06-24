@@ -1015,6 +1015,12 @@ class MailTexts {
               'Tisztelt {{name}}! Jelszó-visszaállítást kértél.',
               'Használja ezt a kódot a(z) {{url}}/recover-password?email={{to}}&token={{token}} oldalon, vagy kattintson az alábbi gombra.',
           ],
+          'USER_INVITE' => [
+              'Meghívás - OpenSupports',
+              'Meghívás',
+              'Tisztelt {{name}}! Meghívtak, hogy csatlakozz a támogatási központunkhoz.',
+              'Használd ezt a kódot a(z) {{url}}/recover-password?email={{to}}&token={{token}}&invited=true oldalon, vagy kattints az alábbi gombra a jelszavad beállításához.'
+          ],
           'USER_SYSTEM_DISABLED' => [
               'Hozzáférési rendszer megváltozott - OpenSupports',
               'Hozzáférési rendszer megváltozott',
