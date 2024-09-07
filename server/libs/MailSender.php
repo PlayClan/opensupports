@@ -16,7 +16,7 @@ class MailSender {
 
     public function setConnectionSettings($host, $user, $pass, $serverEmail) {
         $this->mailOptions['from'] = $serverEmail;
-        $this->mailOptions['fromName'] = 'OpenSupports';
+        $this->mailOptions['fromName'] = 'PlayClan Support';
 
         $this->mailOptions['smtp-host'] = $host;
         $this->mailOptions['smtp-user'] = $user;

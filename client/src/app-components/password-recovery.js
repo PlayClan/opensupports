@@ -67,7 +67,7 @@ class PasswordRecovery extends React.Component {
         let logo = null;
 
         if (this.props.renderLogo) {
-            logo = (<div className="password-recovery__image"><img width="100%" src={API.getURL() + '/images/logo.png'} alt="OpenSupports Login Panel"/></div>);
+            logo = (<div className="password-recovery__image"><img width="30%" src={API.getURL() + '/images/logo.png'} alt="PlayClan Support"/></div>);
         }
 
         return logo;
